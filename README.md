@@ -76,12 +76,12 @@ Formatted Reporting: To ensure that the tables are precisely positioned for text
 Error Handling: To avoid system failures and offer user-friendly feedback, every pipeline operation is enclosed in an international try-except block.
 
 📝 Evaluation Checklist
-[x] Part 1: File Encodings & Cleaning
+ Part 1: File Encodings & Cleaning
 
-[x] Part 2: Data Processing & Summary Calculations
+ Part 2: Data Processing & Summary Calculations
 
-[x] Part 3: API Integration & Data Enrichment
+ Part 3: API Integration & Data Enrichment
 
-[x] Part 4: Comprehensive Text Reporting
+ Part 4: Comprehensive Text Reporting
 
-[x] Part 5: Main Execution Flow & User Interaction
+ Part 5: Main Execution Flow & User Interaction
