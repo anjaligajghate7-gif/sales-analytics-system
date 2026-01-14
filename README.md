@@ -4,11 +4,11 @@ A comprehensive Python-based data engineering pipeline that analyzes raw sales d
 
 ## 📊 Project Summary
 This system manages the sales data processing process automatically:
-1. Reads text files in a variety of encodings (CP1252, Latin-1, and UTF-8).
-2. **Cleaning: It eliminates corrupted data records and confirms data integrity based on specific prefix criteria (T, P, and C).
+1. **Reading:** Reads text files in a variety of encodings (CP1252, Latin-1, and UTF-8).
+2. **Cleaning:** It eliminates corrupted data records and confirms data integrity based on specific prefix criteria (T, P, and C).
 3. **Analytics:** Performs complex analysis at the customer, item, and local scales, involving sales patterns and high-performance days.
 4. **Enrichment:** Interfaces to the DummyJSON API to obtain current item information and offers real-time exchange rates (USD to EUR).
-5. Reporting: Generates an organized pipe-limited enhanced dataset and a highly formatted narrative summary.
+5. **Reporting:** Generates an organized pipe-limited enhanced dataset and a highly formatted narrative summary.
 
 ---
 
@@ -40,15 +40,16 @@ Internet connection (required for API integration tasks).
 Open your terminal in the project folder and run:
 
 Bash
-
 pip install -r requirements.txt
+
 🚀 How to Run
 Execute the main script from the root directory:
 
 Bash
-
 python main.py
+
 User Interaction Flow:
+
 Initialization: The system displays the "SALES ANALYTICS SYSTEM" header.
 
 Data Loading: Automatically detects and reads the sales file using robust encoding detection.
@@ -56,7 +57,7 @@ Data Loading: Automatically detects and reads the sales file using robust encodi
 Filter Prompt: The system displays available regions and amount ranges found in the data.
 
 Type 'y' to apply a specific region/price filter.
-
+OR
 Type 'n' to process all valid data.
 
 API Integration: The system determines exchange rates for each currency by retrieving 100 products from dummyjson.com.
