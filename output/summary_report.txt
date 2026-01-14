@@ -1,0 +1,7 @@
+SALES ANALYTICS REPORT
+======================
+
+Region: South      | Total Revenue: $888,808.00
+Region: East       | Total Revenue: $467,074.00
+Region: North      | Total Revenue: $1,320,580.00
+Region: West       | Total Revenue: $848,010.00
